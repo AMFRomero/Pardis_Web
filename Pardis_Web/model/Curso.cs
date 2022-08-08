@@ -35,8 +35,7 @@ namespace Pardis_Web.model
         public int Precio { get => precio; set => precio = value; }
 
    
-        {
+        
 
         }
     }
-}

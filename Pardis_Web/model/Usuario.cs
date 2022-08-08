@@ -16,11 +16,6 @@ namespace Pardis_Web.model
         private int id_usuario;
         private bool isprofesor;
 
-        public Usuario()
-        {
-
-        }
-
         public Usuario(string nombre, string apellidofirst, string apellidosecond, string email, string password, string dni, int id_usuario, bool isprofesor)
         {
             this.Nombre = nombre;
