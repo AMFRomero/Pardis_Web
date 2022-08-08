@@ -8,10 +8,8 @@
   <form>
     <h1>Pardis</h1>
     <div class="content">
-      <div class="input-field">
+      <div class="camposLogin">
         <input type="email" placeholder="Email" autocomplete="nope">
-      </div>
-      <div class="input-field">
         <input type="password" placeholder="Password" autocomplete="new-password">
       </div>
       <a href="#" class="link">Forgot Your Password?</a>
