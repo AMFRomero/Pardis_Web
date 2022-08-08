@@ -6,7 +6,7 @@
 
 <div class="login-form">
   <form>
-    <h1>Pardis</h1>
+    <h1><strong>Iniciar sesión</strong></h1>
     <div class="content">
       <div class="camposLogin">
         <input type="email" placeholder="Email" autocomplete="nope">
@@ -20,7 +20,6 @@
   </form>
 </div>
 <!-- partial -->
-  <script  src="./script.js"></script>
 
 
-</span></asp:Content>
+</asp:Content>

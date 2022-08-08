@@ -6,27 +6,38 @@
 
 <div class="login-form">
   <form>
-    <h1>Pardis</h1>
+    <h1><strong>Registrarte</strong></h1>
+    <p><i>Es rápido y fácil.</i></p>
     <div class="content">
       <div class="input-field">
-         <input type="password" placeholder="Password" autocomplete="new-password">
-             <input type="password" placeholder="Password" autocomplete="new-password">
-             <input type="password" placeholder="Password" autocomplete="new-password">
-             <input type="password" placeholder="Password" autocomplete="new-password">
-          <input type="email" placeholder="Email" autocomplete="nope">
-        <input type="password" placeholder="Password" autocomplete="new-password">
-        <input type="password" placeholder="Password" autocomplete="new-password">
-      <input type="password" placeholder="Password" autocomplete="new-password">
- 
-          <a href="#" class="link">Forgot Your Password?</a>
+         <input type="text" placeholder="Nombre">
+             <input type="text" placeholder="Primer Apellido ">
+             <input type="text" placeholder="Segundo Apellido " >
+             <input type="text" placeholder="Email">
+             <input type="email" placeholder="Password" autocomplete="nope">
+            <input type="password" placeholder="Repetir Password" autocomplete="new-password" >
+            <input type="text" placeholder="DNI" >
     </div>
+    <p> <input class="in1" id="checkboxid" type="checkbox"> Al registrarse, acepta nuestros <a href="https://www.facebook.com/pagina">Términos de uso y Política de privacidad</a></p>
     <div class="action">
-      <button>Sign in</button>
+      <button onclick="change()">Registrate</button>
     </div>
   </form>
+    <script>
+    function change(){
+        if (document.getElementById("checkboxid").checked === true) {
+
+             
+
+        } else {
+     alert("Error" ,1);
+      }
+    }
+    </script>
 </div>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
 
-</span></asp:Content>
+
+</span>
+
+</asp:Content>

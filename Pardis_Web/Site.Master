@@ -55,7 +55,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="WebForm1.aspx">Iniciar sesion </a></li>
-                        <li><a runat="server" href="~/">Registrar -me </a></li>
+                        <li><a runat="server" href="WebForm2.aspx">Registrar -me </a></li>
                         <li><a runat="server" href="~/">Sobre nosotros </a></li>
                         <li><a runat="server" href="~/">Categoria</a></li>
                     </ul>
@@ -67,7 +67,6 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mi aplicación ASP.NET</p>
             </footer>
         </div>
 
