@@ -1,6 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Site.Master"  CodeBehind="WebForm1.aspx.cs" Inherits="Pardis_Web.fonts.WebForm1" %>
-
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
 
@@ -18,7 +16,7 @@
             <input type="password" placeholder="Repetir Password" autocomplete="new-password" >
             <input type="text" placeholder="DNI" >
     </div>
-    <p> <input class="in1" id="checkboxid" type="checkbox"> Al registrarse, acepta nuestros <a href="https://www.facebook.com/pagina">Términos de uso y Política de privacidad</a></p>
+    <p> <input class="in1" id="checkboxid" type="checkbox"> Al registrarse, acepta nuestros <a href="WebForm3.aspx">Términos de uso y Política de privacidad</a></p>
     <div class="action">
       <button onclick="change()">Registrate</button>
     </div>
@@ -38,6 +36,5 @@
 
 
 
-</span>
 
 </asp:Content>
